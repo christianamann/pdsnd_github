@@ -58,7 +58,8 @@ def get_filters():
 
 def load_data(city, month, day):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads data for the specified city and filters by month and day only if applicable.
+    Also tracks the time taken to load date.
 
     Args:
         (str) city - name of the city to analyze
@@ -221,10 +222,10 @@ def user_stats(df):
     print('-'*40)
 
     # TO DO: Display raw data
-    
+
     i=0
     request_raw = input('Do you want to see raw data? Use ENTER to see raw data or \'no\' to abort.\n')
-    
+
     while request_raw != 'no':
         print(df.iloc[i:i+5])
         i += 5
