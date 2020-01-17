@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyze. 
 
     Returns:
         (str) city - name of the city to analyze
@@ -128,7 +128,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics on the most popular stations and trip (meaning start to end station)."""
 
     print('\nCalculating The Most Popular Stations and Trip...')
     start_time = time.time()
