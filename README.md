@@ -14,6 +14,6 @@ washington.csv
 new_york_city.csv
 
 ### Credits
-https://www.geeksforgeeks.org/python-pandas-dataframe-idxmax/
-https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/
-https://stackoverflow.com/questions/29096381/num-day-to-name-day-with-pandas
+https://www.geeksforgeeks.org/python-pandas-dataframe-idxmax/ -> used for finding most frequent combinations of stations
+https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/ -> used for finding most frequent combinations of stations
+https://stackoverflow.com/questions/29096381/num-day-to-name-day-with-pandas -> used for converting days as numbers to days as strings
