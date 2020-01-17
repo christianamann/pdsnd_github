@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+17.01.2020
 
 ### Project Title
-Replace the Project Title
+Project Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Project Bikeshare provides a small application that allows you to analyze bikeshare analytics for 3 cities (Washington, New York, Chicago)
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.geeksforgeeks.org/python-pandas-dataframe-idxmax/
+https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/
+https://stackoverflow.com/questions/29096381/num-day-to-name-day-with-pandas
